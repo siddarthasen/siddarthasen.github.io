@@ -102,14 +102,15 @@ a {
 }
 
 .empty .circle {
-	border-radius: 100%;
+	border-radius: 50%;
 	background-color: white;
   	box-sizing: border-box;
-  	height: 23%;
-  	width: 23%;
+  	height: 120px;
+  	width: 120px;
   	display: flex;
   	justify-content: center;
   	align-items: center;
+  	position: relative;
 }
 
 
