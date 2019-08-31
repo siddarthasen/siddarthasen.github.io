@@ -395,7 +395,7 @@ position: relative;
 
 
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 745px) {
 
 	#border2	 {
 		grid-template-columns: 100%;
