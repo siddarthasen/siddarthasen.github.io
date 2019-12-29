@@ -23,7 +23,6 @@ a {
 }
 
 .box {
-	
 	border-radius: 2%;
 	margin: 20px;
   	box-sizing: border-box;
@@ -216,11 +215,7 @@ a {
 	position: relative;
 	margin: 70px 225px 10px 25px;
 	width: 90%;
-	/*display: inline-block;*/
-
-
-  
-  
+	/*display: inline-block;*/  
 }
 
 
