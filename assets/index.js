@@ -134,6 +134,7 @@ $(document).ready(function(){
 	project_hover(box, box_card);
 	project_hover(write, write_card);
 
+	
 
 
 
