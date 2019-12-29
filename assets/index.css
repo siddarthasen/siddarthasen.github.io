@@ -390,7 +390,7 @@ position: relative;
 
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 745px) {
 
 	#border2	 {
 		grid-template-columns: 100%;
@@ -437,7 +437,7 @@ position: relative;
 
 
 
-@media screen and (min-width: 787px) {
+@media screen and (min-width: 746px) {
 
 	#sec1 #whaddup-sec .me {
 		display: none;
