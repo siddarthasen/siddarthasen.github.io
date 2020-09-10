@@ -3,14 +3,14 @@ $(document).ready(function(){
 	//variables for icons and projects
 	var py = $("#skills-sec ul li:nth-child(1)");
 	var html = $("#skills-sec ul li:nth-child(2)");
-	var pubnub = $("#skills-sec ul li:nth-child(3)");
-	var js = $("#skills-sec ul li:nth-child(4)");
-	var java = $("#skills-sec ul li:nth-child(5)");
+	
+	var js = $("#skills-sec ul li:nth-child(3)");
+	
 	var py_cond = false;
 	var html_cond = false;
-	var pubnub_cond = false;
+	
 	var js_cond = false;
-	var java_cond = false;
+	
 	var button_lst = [];
 
 
@@ -23,7 +23,7 @@ $(document).ready(function(){
 			section.toggle(500);
 		})
 		if (num%2===0){
-			console.log("it's here");
+			
 			icon.hover(function(){
 				icon.toggleClass("icon1");
 			})
@@ -49,7 +49,7 @@ $(document).ready(function(){
 			}
 		})
 			if (num%2===0){
-			console.log("it's here");
+			
 			icon.hover(function(){
 				icon.toggleClass("icon1");
 			})
@@ -59,14 +59,8 @@ $(document).ready(function(){
 
 	icon_skills_single(py, $(".py-proj"), py_cond);
 	icon_skills(html, $(".html-proj"), html_cond);
-	icon_skills(pubnub, $(".pubnub-proj"), pubnub_cond);
 	icon_skills(js, $(".js-proj"), js_cond);
-	icon_skills_single(java, $("java-proj"));
-
-
-
-
-
+	
 
 
 	//variables for interests
@@ -76,8 +70,6 @@ $(document).ready(function(){
 	var league1 = $(".container .card:nth-child(2) .face1");
 	var league2 = $(".container .card:nth-child(2) .face2");
 	var league3 = $(".container .card:nth-child(2) .face1 .content img");
-
-
 
 	function move_card(face1, face2, face3){
 		face1.click(function(){
@@ -121,7 +113,8 @@ $(document).ready(function(){
 	var box_card = $("#projects-sec #projects-list ul li:nth-child(2)");
 	var write = $("#projects-sec #projects-list ul li:nth-child(3) a");
 	var write_card = $("#projects-sec #projects-list ul li:nth-child(3)");
-
+	var notSyke = $("#projects-sec #projects-list ul li:nth-child(4) a");
+	var notSyke_card = $("#projects-sec #projects-list ul li:nth-child(4)");
 
 
 	function project_hover(project, card){
@@ -133,9 +126,6 @@ $(document).ready(function(){
 	project_hover(boggle, boggle_card);
 	project_hover(box, box_card);
 	project_hover(write, write_card);
-
-	
-
-
+	project_hover(notSyke, notSyke_card);
 
 });
